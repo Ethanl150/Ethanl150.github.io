@@ -1,0 +1,100 @@
+body {
+    background: url('https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+    position: relative;
+    width: 450px;
+    height: 288px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.card div {
+    position: absolute;
+    bottom: 10px;
+    width: 462.5px;
+    text-align: center;
+}
+
+.about-me {
+    margin-left: 320px;
+    line-height: 40px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    bottom: 0;
+}
+
+#about-me-container {
+    height: 600px;
+}
+
+#contact-container {
+    height: 550px;
+}
+
+#wordguess {
+    background-image: url('https://thumbs-prod.si-cdn.com/asIE5_yooYR7yRl1O2JRv0BZXjk=/420x240/https://public-media.si-cdn.com/filer/e7/6f/e76f3161-6fef-4370-a839-4a622af22ebc/close-up-letters-scrabble-278881.jpg');
+}
+
+#rpg {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Dados_4_a_20_caras_trans.png');
+}
+
+#trivia {
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/too-many-questions-royalty-free-image-487063216-1545936032.jpg?crop=1.00xw:0.752xh;0,0.0649xh&resize=480:*');
+}
+
+#info {
+    background-image: url('https://tradinginsider.fr/wp-content/uploads/2019/03/Information.jpg');
+}
+
+#rps {
+    background-image: url('https://boygeniusreport.files.wordpress.com/2015/11/rock-paper-scissors-strategy.jpg?quality=98&strip=all');
+    margin-left: 46px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .card div {
+        width: 387.5px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .card div {
+        width: 287.5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card div {
+        width: 450px;
+    }
+
+    .about-me {
+        clear: both;
+        margin: 0;
+    }
+
+    #about-me-container {
+        height: 750px;
+    }
+}
