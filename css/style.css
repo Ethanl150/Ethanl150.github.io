@@ -1,8 +1,12 @@
 body {
-    background: url('https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg');
+    background: url('https://markaylatimer.com/wp-content/uploads/2016/06/grey-website-background-illusionapparel2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+    margin-right: 0;
 }
 
 .card {
@@ -10,7 +14,6 @@ body {
     width: 450px;
     height: 288px;
     background-size: cover;
-    background-repeat: no-repeat;
     padding: 0;
     margin-top: 45px;
 }
@@ -23,7 +26,7 @@ body {
 }
 
 .about-me {
-    margin-left: 320px;
+    margin-left: 270px;
     line-height: 40px;
 }
 
@@ -33,14 +36,16 @@ a:hover {
 
 img {
     height: 300px;
-    width: 300px;
+    width: 250px;
     float: left;
 }
 
 footer {
+    position: fixed;
     clear: both;
     height: 50px;
     bottom: 0;
+    width: -webkit-fill-available;
 }
 
 #about-me-container {
@@ -82,6 +87,14 @@ footer {
     .card div {
         width: 287.5px;
     }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    #rps {
+        margin-left: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -96,5 +109,9 @@ footer {
 
     #about-me-container {
         height: 750px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
     }
 }
