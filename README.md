@@ -1,1 +1,1 @@
-# Ethanl150.github.io
+In this repository I created a website with three pages: About Me, Portfolio, and Contact. I used Bootstrap as well as custom CSS to style the site. All three pages are made up of three main sections: Navigation, Main, and Footer. One of the main goals of this application was to make sure all of the content of the page, including background images, are responsive to the screen size of the end user's device.
