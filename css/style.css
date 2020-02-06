@@ -58,8 +58,8 @@ footer {
     height: 550px;
 }
 
-#wordguess {
-    background-image: url('https://thumbs-prod.si-cdn.com/asIE5_yooYR7yRl1O2JRv0BZXjk=/420x240/https://public-media.si-cdn.com/filer/e7/6f/e76f3161-6fef-4370-a839-4a622af22ebc/close-up-letters-scrabble-278881.jpg');
+#password-generator {
+    background-image: url('../passwordgenerator.png');
 }
 
 #rpg {
