@@ -76,7 +76,7 @@ footer {
 
 #rps {
     background-image: url('https://boygeniusreport.files.wordpress.com/2015/11/rock-paper-scissors-strategy.jpg?quality=98&strip=all');
-    margin-left: 46px;
+    margin: 45px auto;
 }
 
 @media only screen and (max-width: 991px) {
@@ -85,9 +85,9 @@ footer {
         flex-direction: row;
     }
 
-    #rps {
-        margin-left: 30px;
-    }
+    /* #rps {
+        margin: 45px auto;
+    } */
 }
 
 @media only screen and (max-width: 767px) {
