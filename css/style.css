@@ -23,7 +23,7 @@ body {
 .card div {
     position: absolute;
     bottom: 10px;
-    width: 462.5px;
+    width: 100%;
     text-align: center;
 }
 
@@ -79,16 +79,7 @@ footer {
     margin-left: 46px;
 }
 
-@media only screen and (max-width: 1199px) {
-    .card div {
-        width: 387.5px;
-    }
-}
-
 @media only screen and (max-width: 991px) {
-    .card div {
-        width: 287.5px;
-    }
 
     .navbar-nav {
         flex-direction: row;
@@ -100,9 +91,6 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-    .card div {
-        width: 450px;
-    }
 
     .about-me {
         clear: both;
@@ -115,5 +103,11 @@ footer {
 
     .navbar-nav {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .ml-3 {
+    margin-left: auto !important;
     }
 }
