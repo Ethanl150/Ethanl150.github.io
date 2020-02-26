@@ -5,6 +5,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
   }
 
   main {
@@ -13,7 +14,6 @@ body {
       -moz-background-size: cover;
       background-size: cover;
       -o-background-size: cover;
-      font-family: 'Ubuntu', sans-serif;
       margin-bottom: 50px;
   }
 
@@ -69,7 +69,7 @@ footer {
 }
 
 #contact-container {
-    height: 550px;
+    height: 627px;
 }
 
 #password-generator {
@@ -111,6 +111,9 @@ footer {
 
     .navbar-nav {
         flex-direction: row;
+        width: 214.98px;
+        height: 40px;
+        justify-content: space-around;
     }
 }
 
@@ -131,8 +134,14 @@ footer {
         margin: 0 auto;
     }
 
+    #contact-container {
+        height: 569px;
+    }
+
     .navbar-nav {
         flex-direction: column;
+        width: 64.91px;
+        height: 120px;
     }
 }
 
