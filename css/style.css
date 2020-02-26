@@ -65,7 +65,7 @@ footer {
 }
 
 #about-me-container {
-    height: 600px;
+    height: 604px;
 }
 
 #contact-container {
@@ -122,7 +122,13 @@ footer {
     }
 
     #about-me-container {
-        height: 750px;
+        height: auto;
+    }
+
+    img {
+        float: none;
+        display: block;
+        margin: 0 auto;
     }
 
     .navbar-nav {
