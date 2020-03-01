@@ -1,10 +1,4 @@
 body {
-    /* background: url('https://markaylatimer.com/wp-content/uploads/2016/06/grey-website-background-illusionapparel2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    font-family: 'Ubuntu', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
   }
 
@@ -65,7 +59,7 @@ footer {
 }
 
 #about-me-container {
-    height: 604px;
+    height: 627px;
 }
 
 #contact-container {
