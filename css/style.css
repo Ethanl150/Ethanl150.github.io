@@ -92,6 +92,15 @@ footer {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#template-engine {
+    background: url('../templateengine.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #food-finder {
     background: url('../foodfinder1.png') no-repeat center center;
     -webkit-background-size: cover;
