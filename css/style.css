@@ -101,6 +101,15 @@ footer {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#note-taker {
+    background: url('../notetaker.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #food-finder {
     background: url('../foodfinder1.png') no-repeat center center;
     -webkit-background-size: cover;
