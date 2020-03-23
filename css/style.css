@@ -58,6 +58,10 @@ footer {
     width: -webkit-fill-available;
 }
 
+.banner {
+    opacity: 0.8;
+}
+
 #about-me-container {
     height: 627px;
 }
@@ -67,33 +71,16 @@ footer {
 }
 
 #password-generator {
-    background: url('../passwordgenerator.png') no-repeat center;
+    background: url('../images/passwordgenerator.png') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Ubuntu', sans-serif;
-}
-
-#quiz {
-    background-image: url('../jsquiz.png');
-}
-
-#scheduler {
-    background-image: url('../workdayscheduler1.png');
 }
 
 #weather {
-    background: url('../weather.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#template-engine {
-    background: url('../templateengine.png') no-repeat center center;
+    background: url('../images/weather.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -102,7 +89,7 @@ footer {
 }
 
 #note-taker {
-    background: url('../notetaker.png') no-repeat center center;
+    background: url('../images/notetaker.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -111,16 +98,7 @@ footer {
 }
 
 #food-finder {
-    background: url('../foodfinder1.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#employee-tracker {
-    background: url('../employeetracker.png') no-repeat center center;
+    background: url('../images/foodfinder1.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -129,7 +107,16 @@ footer {
 }
 
 #eat-da-burger {
-    background: url('../eatdaburger.png') no-repeat center center;
+    background: url('../images/eatdaburger.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#fyre {
+    background: url('../images/fyreapp.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
