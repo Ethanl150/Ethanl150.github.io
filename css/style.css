@@ -1,0 +1,169 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  main {
+      background: url('https://www.stkconf.org/wp-content/uploads/2018/10/Web-Page-Background-Color.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      margin-bottom: 50px;
+  }
+
+  h1 {
+      font-size: 4em;
+  }
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.card {
+    position: relative;
+    height: 288px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.card div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.about-me {
+    margin-left: 270px;
+    line-height: 40px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    float: left;
+}
+
+footer {
+    position: fixed;
+    clear: both;
+    height: 50px;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+.banner {
+    opacity: 0.8;
+}
+
+#about-me-container {
+    height: 627px;
+}
+
+#contact-container {
+    height: 627px;
+}
+
+#password-generator {
+    background: url('../images/passwordgenerator.png') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#weather {
+    background: url('../images/weather.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#note-taker {
+    background: url('../images/notetaker.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#food-finder {
+    background: url('../images/foodfinder1.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#eat-da-burger {
+    background: url('../images/eatdaburger.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#fyre {
+    background: url('../images/fyreapp.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-nav {
+        flex-direction: row;
+        width: 214.98px;
+        height: 40px;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .about-me {
+        clear: both;
+        margin: 0;
+    }
+
+    #about-me-container {
+        height: auto;
+    }
+
+    img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #contact-container {
+        height: 569px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 64.91px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .ml-3 {
+    margin-left: auto !important;
+    }
+}
